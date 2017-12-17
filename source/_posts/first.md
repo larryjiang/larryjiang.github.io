@@ -9,4 +9,5 @@
 ### Intent of of this blog ###
 * As a quick note
 * Explore different kinds of technologies
+<!--more-->
 * As my little memoir recording stuff worth writing  
