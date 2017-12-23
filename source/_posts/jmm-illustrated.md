@@ -8,7 +8,7 @@
 
 
 ### Preface 
-Java Memory Model(abbr. JMM later) has been and will alway be one of the most fundamental and hardest area to understand. Yet, in learning java language, we just can not circumvent this topic. Without deep understanding of Java Memory Model, it is hard to write correct concurrent program in java. <!-- more -->However, mastering JMM needs significant system level knowledge like computer architecture, operating system knowledge, compilers, etc. This note mainly aims to record the process how I understand and learn this topic over time. 
+Java Memory Model(abbr. JMM later) has been and will alway be one of the most fundamental and hardest area to understand. Yet, in learning java language, we just can not circumvent this topic. Without deep understanding of Java Memory Model, it is hard to write correct concurrent programs in java. <!-- more -->However, mastering JMM needs significant system level knowledge like computer architecture, operating system, compilers, etc. This note mainly aims to record the process how I understand and learn this topic over time. 
 
 ### Disclaimer
 This topic will be update to date and it is not ganranteed that opinions given here are correct. Origins of the references used in this paper will be given [References](#references). 
@@ -21,12 +21,31 @@ What does JMM do exactly, and why does java have its language level memory model
 
 and the answer to the second may be:
 
-* Java have built-in support for synchronizaiton and it is claimed to be cross-platform, which means it should abstract aways the low level details and promote synchronization into language level.
+* Java have built-in support for synchronizaiton and is claimed to be cross-platform, which means it should abstract aways the low level details and promote synchronization into language level.
+
+### Prerequisites
+#### Reorders
+If all the instructions were to be executed sequentially, it will be a lot easier for us to understand the outcome of a program. However, it is just not the case. Compilers and Operating Systems are free to reorder instructions so that our code is executed more efficiently. Understanding all kinds of reorders may help us comprehend the design behind the JMM. 
+
+##### Compiler Optimization
+##### Out-of-order execution
+
+
+
+
+
+
+
 
 ### Some key points in understanding the JMM Model###
 * Understanding the **built-in** synchronization mechanism
 * Understanding the **volatile** keyword, its influence on memory visibility as well as its impact on instruction reordering
 * Unserstanding the semantics of **final** keyword and its influence on object initialization
+
+
+
+
+
 
 
 
