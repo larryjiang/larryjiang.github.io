@@ -28,7 +28,7 @@ and the answer to the second may be:
 If all the instructions were to be executed sequentially, it will be a lot easier for us to understand the outcome of a program. However, it is just not the case. Compilers and Operating Systems are free to reorder instructions so that our code is executed more efficiently. Understanding all kinds of reorders may help us comprehend the design behind the JMM. 
 
 ##### Compiler Optimization
-##### Out-of-order execution
+##### Out-of-order Execution
 
 
 
