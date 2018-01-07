@@ -53,3 +53,5 @@ If all the instructions were to be executed sequentially, it will be a lot easie
 ### References
 1. <a name="ref-1" href="https://shipilev.net/blog/2014/jmm-pragmatics/">Java Memory Model Pragmatics</a>
 2. <a name="ref-2" href="http://www.cs.umd.edu/~pugh/java/memoryModel/jsr-133-faq.html">Famous JSR133 FAQ</a>
+3. <a name="ref-3" href="http://www.hpl.hp.com/techreports/Compaq-DEC/WRL-95-7.pdf">Shared Memory Consistency Models: A Tutorial</a>
+4. <a name="ref-4" href="https://docs.oracle.com/javase/specs/">Java Language and Virtual Machine Specification</a>
